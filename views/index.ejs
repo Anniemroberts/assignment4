@@ -1,0 +1,20 @@
+<%- include('partials/header') %>
+<h2>Enter a list of names separated by commas & the way you'd like them sorted.</h2>
+
+<form method="post" action>
+  <div>
+    <label for="nameInput">List of Names: </label>
+    <textarea id="nameInput" name="nameInput"></textarea>
+  </div>
+  <input type="radio" name="numSelect" value="count"> Team Count
+  <input type="radio" name="numSelect" value="numperteam"> Number Per Team: Disabled<br>
+  <div>
+    <label for="userChoice">Number: </label>
+    <input type="userChoice" id="userChoice" name="userChoice">
+  </div>
+  <div>
+    <input type="submit" name="submit">
+  </div>
+</form>
+
+<%- include('partials/footer') %>

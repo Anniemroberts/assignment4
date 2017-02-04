@@ -1,0 +1,23 @@
+{
+  "name": "assignment4",
+  "version": "1.0.0",
+  "description": "Week 4",
+  "main": "app.js",
+  "repository": {},
+  "author": "Annie",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon app.js",
+    "debug": "node --inspect app.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.16.0",
+    "ejs": "^2.5.5",
+    "express": "^4.14.1",
+    "morgan": "^1.7.0",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}

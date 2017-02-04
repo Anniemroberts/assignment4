@@ -1,0 +1,6 @@
+<%- include('partials/header') %>
+<h2>Your groups:</h2>
+<% for (let group in groups) { %>
+    <p><%= group %>: <%= groups[group] %></p>
+<% } %>
+<%- include('partials/footer') %>

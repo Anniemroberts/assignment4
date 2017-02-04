@@ -1,0 +1,18 @@
+<%- include('partials/header') %>
+<h2>Enter a list of names separated by commas & the number of teams.</h2>
+
+<form method="post" action>
+  <div>
+    <label for="nameInput">List of Names: </label>
+    <textarea id="nameInput" name="nameInput"></textarea>
+  </div>
+  <div>
+    <label for="userNum">Groups: </label>
+    <input type="userNum" id="userNum" name="userNum">
+  </div>
+  <div>
+    <input type="submit" name="submit">
+  </div>
+</form>
+
+<%- include('partials/footer') %>
